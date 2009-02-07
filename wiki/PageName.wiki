@@ -1,4 +1,3 @@
-#PageName Manual Install
 #summary How to manually install the script.
 
 = How to Manually Install =
