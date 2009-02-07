@@ -1,19 +1,9 @@
-#summary TF2 Competitive Configuration Project Overview
+#summary How to manually install the script.
 
-This project's intent is to provide a comprehensive configuration for Team Fortress 2 competitive play. It attempts to provide convenience rather than advantage and aims to be league legal.
+= How to Manually Install =
+Say the installer isn't working for you or you don't trust 3rd party exes (fair enough). The script is extremely easy to install:
 
-= How to Use =
-Everything is either automatic or optional.
-
-= How to Install = 
-_Requies .net 3.5_
-Download the latest package from the _downloads_ section and run the exe (requires .net 3.5). Alternately, you can manually install the files you would like to make use of that are archived in the package.
-
-= Featured HUD(s) =
-
-=== The Noid's HUD ===
-[http://tf2compconfiguration.googlecode.com/files/hudmedic.jpg http://tf2compconfiguration.googlecode.com/files/hudmedicthumb.jpg][http://tf2compconfiguration.googlecode.com/files/hudengi.jpg http://tf2compconfiguration.googlecode.com/files/hudengithumb.jpg][http://tf2compconfiguration.googlecode.com/files/hudmedicuber.jpg http://tf2compconfiguration.googlecode.com/files/hudmedicuberthum.jpg]
-
-*If you have some spare time and want to change this fantastic HUD into a more universal, 4:3 version, contact me.*
-
-*There are currently no other HUDs! If you would like your HUD included in the project, upload it!* This project was started so people could easily share their configurations.
+#Reset your config folder to its default. BACK UP the entire folder first and then delete everything inside it except 'user.scr'. Now, run and exit the game (no need to join a server).
+#Copy over the contents of the cfg folder (from the installer) into your cfg folder.
+If you would like to change any of the default hotkeys, open your autoexec.cfg and do so. Reference 'binds.txt' for a complete list of game binds the script aliases before you rebind any hotkeys. Now, run and exit the game. In your autoexec.cfg, delete the section specified. Done!
+#Please note, in observer mode, use the left and right arrows to switch perspectives. The script is compatible with FPS configs, just add them back in when done.
