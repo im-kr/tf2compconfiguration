@@ -1,19 +1,19 @@
 #summary TF2 Competitive Configuration Project Overview
 
-= Intent =
 This project's intent is to provide a comprehensive configuration for Team Fortress 2 competitive play. It attempts to provide convenience rather than advantage and aims to be league legal.
 
 = How to Use =
-
-   Everything is either automatic or optional.
+Everything is either automatic or optional.
 
 = Featured HUD(s) =
-_If you would like your HUD included in the project, upload it!_ This project was started so people could easily share their configurations.
 
 === The Noid's HUD ===
 [http://tf2compconfiguration.googlecode.com/files/hudmedic.jpg http://tf2compconfiguration.googlecode.com/files/hudmedicthumb.jpg][http://tf2compconfiguration.googlecode.com/files/hudengi.jpg http://tf2compconfiguration.googlecode.com/files/hudengithumb.jpg][http://tf2compconfiguration.googlecode.com/files/hudmedicuber.jpg http://tf2compconfiguration.googlecode.com/files/hudmedicuberthum.jpg]
 
 <font color="red">If you have some spare time and want to change this fantastic HUD into a more universal, 4:3 version, contact me.</font>
 
+<font color="red"> There are currently no other HUDs! If you would like your HUD included in the project, upload it!</font> This project was started so people could easily share their configurations.
+
 = How to Install =
-Download the latest package from the _downloads_ section and run the exe (requires .net 3.5). Alternately, you may manually install the files you would like to make use of that are archived in the package.
+=== Requies .net 3.5 ===
+Download the latest package from the _downloads_ section and run the exe (requires .net 3.5). Alternately, you can manually install the files you would like to make use of that are archived in the package.
