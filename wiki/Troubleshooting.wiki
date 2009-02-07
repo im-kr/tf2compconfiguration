@@ -1,0 +1,9 @@
+#summary A list of suggestions to troubleshoot problems with the script.
+#labels Phase-Deploy
+
+    * If you change any binds that change weapons do not use slot1, slot2, etc., this will mess the script up. Instead, use weapon1, weapon2, etc. Next weapon is weapon_next, previous weapon is weapon_prev. Reference 'binds.txt' for a complete list of game binds the script aliases.
+    * Autoreload only works after you switch to a weapon. If you just spawned as a class don't expect it to work.
+    * Make sure your autoexec.cfg has exec competitive.cfg at the top. If you exec competitive.cfg in console, switch classes, and everything magically works, this is probably your problem.
+    * Check to make sure your binds are set up properly (type bind X in console to see what is bound to that key). If binds are not setup properly:
+        ** If you had your config.cfg set to read-only during step 3 of the installation, you messed up. Try, try again.
+        ** If you added your binds some other way, did you miss some
