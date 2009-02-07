@@ -1,0 +1,6 @@
+#summary Things that probably aren't going to change but you should be aware of.
+#labels Phase-Support
+
+ # In observer mode, can't switch perspectives with your mouse buttons. Instead, use the left and right arrow keys.
+ # Can't switch weapons immediately after spinning up with the heavy. This will result in getting "stuck" spun up. Just press 1 again and that should fix it.
+ # On engy, you can't go from build to destroy directly.
