@@ -1,6 +1,6 @@
 #summary How to manually install the script.
 
-Say the installer isn't working for you or you don't trust 3rd party exes (fair enough). The script is extremely easy to install:
+Say the installer isn't working for you or you don't trust 3rd party exes (fair enough). The script is extremely easy to install manually:
 
      # Reset your config folder to its default. BACK UP the entire folder first and then delete everything inside it except 'user.scr'. Now, run and exit the game (no need to join a server).
      # Copy over the contents of the cfg folder (from the installer) into your cfg folder.
