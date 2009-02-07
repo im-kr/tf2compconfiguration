@@ -8,7 +8,7 @@ Feature List
  # If you choose to install the auto-fire pistol script, just hold down mouse1 to fire as fast as possible.
  # Says whenever you're ubering or switching between kritzkrieg and the medigun. There is also the option to enable autoheal without Valve's graphical glitches.
  # Includes a series of admin hotkeys for administering your server. Must press shift before using any hotkeys for fear of accidentally pressing them.
-Pressing shift and a # key will switch you to that # class (press ',' in-game to see class #s).
+ # Pressing shift and a # key will switch you to that # class (press ',' in-game to see class #s).
  # Press 'B' down to forward spawn.
  # f7 toggles net_graph on and off.
  # f8 starts and stops a recording for those obnoxious invisible characters after an alt-tab.
