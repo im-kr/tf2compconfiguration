@@ -10,18 +10,10 @@ This project's intent is to provide a comprehensive configuration for Team Fortr
 = Featured HUD(s) =
 _If you would like your HUD included in the project, upload it!_ This project was started so people could easily share their configurations.
 
-== The Noid's HUD ==
+=== The Noid's HUD ===
 [http://tf2compconfiguration.googlecode.com/files/hudmedic.jpg http://tf2compconfiguration.googlecode.com/files/hudmedicthumb.jpg][http://tf2compconfiguration.googlecode.com/files/hudengi.jpg http://tf2compconfiguration.googlecode.com/files/hudengithumb.jpg][http://tf2compconfiguration.googlecode.com/files/hudmedicuber.jpg http://tf2compconfiguration.googlecode.com/files/hudmedicuberthum.jpg]
 
 <font color="red">If you have some spare time and want to change this fantastic HUD into a more universal, 4:3 version, contact me.</font>
 
 = How to Install =
 Download the latest package from the _downloads_ section and run the exe (requires .net 3.5). Alternately, you may manually install the files you would like to make use of that are archived in the package.
-
-= Manually Install =
-Download the latest package from the _downloads_ section and run the exe (requires .net 3.5). Alternately, you may manually install the files you would like to make use of that are archived in the package.
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
