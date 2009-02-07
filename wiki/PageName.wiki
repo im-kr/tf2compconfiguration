@@ -14,6 +14,6 @@ Download the latest package from the _downloads_ section and run the exe (requir
 === The Noid's HUD ===
 [http://tf2compconfiguration.googlecode.com/files/hudmedic.jpg http://tf2compconfiguration.googlecode.com/files/hudmedicthumb.jpg][http://tf2compconfiguration.googlecode.com/files/hudengi.jpg http://tf2compconfiguration.googlecode.com/files/hudengithumb.jpg][http://tf2compconfiguration.googlecode.com/files/hudmedicuber.jpg http://tf2compconfiguration.googlecode.com/files/hudmedicuberthum.jpg]
 
-<font color="red">If you have some spare time and want to change this fantastic HUD into a more universal, 4:3 version, contact me.</font>
+*If you have some spare time and want to change this fantastic HUD into a more universal, 4:3 version, contact me.*
 
-<font color="red"> There are currently no other HUDs! If you would like your HUD included in the project, upload it!</font> This project was started so people could easily share their configurations.
+*There are currently no other HUDs! If you would like your HUD included in the project, upload it!* This project was started so people could easily share their configurations.
