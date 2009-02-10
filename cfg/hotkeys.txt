@@ -5,7 +5,7 @@ bind "q" "swap" //swaps between primary and secondary weapons
 bind "shift" "+statekey"				   //switches your # keys to switch classes
 bind "rightarrow" +attack
 bind "leftarrow" +attack2
-bind "b" "cycle_spawn"					   //moves you to the forward spawn but requires +statekey
+bind "n" "cycle_spawn"					   //moves you to the forward spawn but requires +statekey
 bind "MOUSE1" "+class_attack"
 bind "MOUSE2" "+class_attack2"
 bind "1" "weapon1"					       // equivelent to slot1 in default install
