@@ -1,0 +1,12 @@
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ScriptInstaller\ScriptInstaller\bin\Release\ScriptInstaller.exe
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ScriptInstaller\ScriptInstaller\bin\Release\ScriptInstaller.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ScriptInstaller\ScriptInstaller\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ScriptInstaller\ScriptInstaller\obj\Release\Window1.baml
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ScriptInstaller\ScriptInstaller\obj\Release\Window1.g.cs
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ScriptInstaller\ScriptInstaller\obj\Release\App.g.cs
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ScriptInstaller\ScriptInstaller\obj\Release\ScriptInstaller_MarkupCompile.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ScriptInstaller\ScriptInstaller\obj\Release\ScriptInstaller.g.resources
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ScriptInstaller\ScriptInstaller\obj\Release\ScriptInstaller.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ScriptInstaller\ScriptInstaller\obj\Release\ScriptInstaller.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ScriptInstaller\ScriptInstaller\obj\Release\ScriptInstaller.exe
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ScriptInstaller\ScriptInstaller\obj\Release\ScriptInstaller.pdb
