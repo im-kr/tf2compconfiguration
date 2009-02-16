@@ -33,7 +33,7 @@
         <TextBox AutoWordSelection="True" Margin="36,351.155,95,0" Name="server4info" Height="23" VerticalAlignment="Top"></TextBox>
         <TextBox AutoWordSelection="True" HorizontalAlignment="Right" Margin="0,351.155,18,0" Name="server4rcon" Width="72" Height="23" VerticalAlignment="Top"></TextBox>
         <Label HorizontalAlignment="Left" Margin="6,350,0,0" Name="label9" Width="30" Height="24" VerticalAlignment="Top">f12:</Label>
-        <Button Margin="207,0,24,12" Name="button1" Click="InstallButton_Click" Grid.Row="1" Height="34" VerticalAlignment="Bottom">Install</Button>
+        <Button Margin="0,7.156,12,12" Name="button1" Click="InstallButton_Click" Grid.Row="1" HorizontalAlignment="Right" Width="181">Install</Button>
         <Label Height="31" HorizontalAlignment="Left" Margin="0,109,0,0" Name="label10" VerticalAlignment="Top" Width="116" FontSize="14">AutoReload</Label>
         <CheckBox Height="16" HorizontalAlignment="Left" Margin="16,138,0,0" Name="ScoutReloadCheckBox" VerticalAlignment="Top" Width="79" IsChecked="True">Scout</CheckBox>
         <CheckBox Height="16" IsChecked="True" Margin="87,138,0,0" Name="SoldierReloadCheckBox" VerticalAlignment="Top" HorizontalAlignment="Left" Width="79">Soldier</CheckBox>
@@ -53,7 +53,7 @@
         <CheckBox Height="16" IsChecked="True" Margin="18,49,0,0" Name="coreScript" ToolTip="If unchecked, won't install any script elements at all." VerticalAlignment="Top" HorizontalAlignment="Left" Width="113">Core Script</CheckBox>
         <Button Margin="24,405.844,0,0" Name="editHotkey" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="161" Click="editHotkey_Click">Edit Hotkeys</Button>
         <Label FontSize="14" Height="28" HorizontalAlignment="Left" Margin="1,379,0,0" Name="label13" VerticalAlignment="Top" Width="158">Hotkeys</Label>
-        <Button Margin="25,0,206,12" Name="revertButton" Grid.Row="1" Height="34" VerticalAlignment="Bottom" Click="revertButton_Click_1">Restore</Button>
+        <Button Margin="9,7.156,0,12" Name="revertButton" Grid.Row="1" Click="revertButton_Click_1" HorizontalAlignment="Left" Width="185">Restore</Button>
         <TextBox Height="23" Margin="11,475,13,0" Name="installDirectory" VerticalAlignment="Top" TextChanged="installDirectory_TextChanged" />
         <Label FontSize="14" Height="28" HorizontalAlignment="Left" Margin="5,446,0,0" Name="label15" VerticalAlignment="Top" Width="190">Install Directory (tf\)</Label>
         <Separator FlowDirection="RightToLeft" Height="31" Margin="9,431,15,0" Name="separator5" RenderTransformOrigin="90,0" VerticalAlignment="Top" />
