@@ -107,10 +107,29 @@ namespace ScriptInstaller
         {
             Directory.Delete(directory, recursive);
         }
-        public string[] getAsStrings(string textFileLoc)
+        public string[] GetAsStrings(string textFileLoc)
         {
             string[] currentFile = File.ReadAllLines(textFileLoc);
             return currentFile;
+        }
+        public string[] GetSubDirsAsString(string source)
+        {
+            DirectoryInfo diSource = new DirectoryInfo(source);
+
+            // Now find all the subdirectories under this directory.
+            System.IO.DirectoryInfo[] subDirs = diSource.GetDirectories();
+            string[] subDirString = new String[subDirs.Length];
+
+            for (int x = 0; x < subDirs.Length; x++)
+            {
+                subDirString[x] = subDirs[x].FullName;
+            }
+            return subDirString;
+        }
+        public string CreationTimeDir(string dir)
+        {
+            System.IO.DirectoryInfo dirInfo = new DirectoryInfo(dir);
+            return dirInfo.CreationTime.ToString();
         }
         /// <summary>
         /// Copies a directory recursively.

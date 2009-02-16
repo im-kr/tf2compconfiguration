@@ -454,13 +454,8 @@ namespace ScriptInstaller
 
         private void revertButton_Click_1(object sender, RoutedEventArgs e)
         {
-            //MessageBox.Show("Reverted to backups.");
-            Backup backup = new Backup();
-            string[] backupList = backup.BackupList();
-            foreach (string line in backupList)
-            {
-                Console.WriteLine(line);
-            }
+            BackupSelectionWindow backupWindow = new BackupSelectionWindow();
+            backupWindow.Show();
         }
 
         private void editHotkey_Click(object sender, RoutedEventArgs e)

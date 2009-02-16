@@ -8,7 +8,7 @@ namespace ScriptInstaller
     class Backup
     {
         private static IOHandler fileHandler = new IOHandler();
-        private static string listLoc = System.IO.Path.Combine(fileHandler.DestBackupPath, "BackupList.txt");
+        // private static string listLoc = System.IO.Path.Combine(fileHandler.DestBackupPath, "BackupList.txt");
         
         public Backup()
         {
@@ -18,11 +18,23 @@ namespace ScriptInstaller
         }
         public string[] BackupList()
         {
-            if (fileHandler.FileExists(listLoc))
+            string[] backupDirList = fileHandler.GetSubDirsAsString(fileHandler.DestBackupPath);
+
+            // the number of fields
+            int multiplier = 2;
+            // total number of stored variables in abab format
+            int numFields = backupDirList.Length * multiplier;
+
+            string[] backupList = new string[numFields];
+            int temp;
+            for (int x = 0; x < numFields; x+=2)
             {
-                return fileHandler.getAsStrings(listLoc);
+                temp = x / multiplier;
+                backupList[x] = backupDirList[temp].Remove(0, fileHandler.DestBackupPath.Length + 1) + " (created " + 
+                    fileHandler.CreationTimeDir(backupDirList[temp]) + ")";
+                backupList[x+1] = backupDirList[temp];
             }
-            return null;
+            return backupList;
         }
         /// <summary>
         /// Moves a folder to tf/backup/backup#/ and adds it to the list of backups.
