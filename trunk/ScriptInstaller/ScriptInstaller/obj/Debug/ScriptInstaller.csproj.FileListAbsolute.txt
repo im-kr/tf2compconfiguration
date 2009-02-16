@@ -10,3 +10,5 @@ C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ScriptInstaller\Scr
 C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ScriptInstaller\ScriptInstaller\bin\Debug\ScriptInstaller.pdb
 C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ScriptInstaller\ScriptInstaller\obj\Debug\ScriptInstaller.exe
 C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ScriptInstaller\ScriptInstaller\obj\Debug\ScriptInstaller.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ScriptInstallerSynced\ScriptInstaller\obj\Debug\ScriptInstaller.exe
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\ScriptInstallerSynced\ScriptInstaller\obj\Debug\ScriptInstaller.pdb
