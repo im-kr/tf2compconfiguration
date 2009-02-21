@@ -1,4 +1,4 @@
-#summary How to manually install the game.
+#summary How to manually install the config.
 #labels Phase-Deploy
 
 Say the installer isn't working for you or you don't trust 3rd party exes (fair enough). The script is extremely easy to manually install:
