@@ -13,4 +13,4 @@ Now, run and exit the game (no need to join a server).
 
 HUD Manual Install
 
-Copy the resource and scripts folder over to your cfg folder.
+Copy the resource and scripts folder over to your tf folder.
