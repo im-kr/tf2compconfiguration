@@ -13,12 +13,12 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/ammo_blue_bg"
+		"image"			"../HUD/ico_demolish"
 		"scaleImage"	"1"	
 		"teambg_2"		"../HUD/ico_demolish"
-		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
-		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+		"teambg_2_lodef"	"../HUD/ico_demolish"
+		"teambg_3"		"../HUD/ico_demolish"
+		"teambg_3_lodef"	"../HUD/ico_demolish"			
 	}
 	"AmmoInClip"
 	{

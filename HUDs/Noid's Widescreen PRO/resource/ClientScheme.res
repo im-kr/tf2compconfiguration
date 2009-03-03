@@ -46,7 +46,9 @@ Scheme
 		"HUDDeathWarning"	"255 0 0 255"
 		"HudWhite"			"255 255 255 255"
 		"HudOffWhite"		"200 187 161 255"
-		
+		"niggablue"		"0 0 255 255"
+		"niggared"		"255 0 0 255"
+
 		"Gray"				"178 178 178 255"
 
 		"Blank"				"0 0 0 0"
@@ -709,7 +711,21 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}		
+		}	
+		"HudDeathnotice"
+		{		
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"24"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"	
+				"outline"	"1"
+				"additive"	"0"
+			}
+		}
 		"HudFontMedium"
 		{
 			"1"
@@ -1538,6 +1554,20 @@ Scheme
 				"tall"		"9"
 				"tall_hidef"	"10"
 				"tall_lodef"	"16"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
+			}
+		}
+		HealthFont
+		{
+			"1"
+			{
+				"name"		"Lucida Console"
+				"tall"		"12"
+				"tall_hidef"	"13"
+				"tall_lodef"	"18"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"

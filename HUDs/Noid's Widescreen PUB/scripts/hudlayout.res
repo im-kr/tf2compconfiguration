@@ -11,7 +11,6 @@
 		"tall"	"480"
 	}
 
-	
 	HudWeaponAmmo
 	{
 		"fieldName" "HudWeaponAmmo"
@@ -54,6 +53,23 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
+
+	HudBallMeter
+	{
+		"fieldName"		"HudBallMeter"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"r162"	[$WIN32]
+		"xpos_minmode"	"r125"	[$WIN32]
+		"ypos"			"r52"	[$WIN32]
+		"ypos_minmode"	"r28"	[$WIN32]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r74"	[$X360]
+		"wide"			"100"
+		"tall"			"50"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
+	}
 	
 	HudMedicCharge
 	{
@@ -163,11 +179,11 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"10"	[$WIN32]
-		"ypos"		"380"	[$WIN32]
+		"ypos"		"374"	[$WIN32]
 		"xpos"		"50"	[$X360]
-		"ypos"		"350"	[$X360]
+		"ypos"		"330"	[$X360]
 		"wide"		"640"
-		"tall"		"40"
+		"tall"		"60"
 		"TextFont"	"Default"	[$X360]
 	}
 
@@ -211,7 +227,7 @@
 		"tall_minmode"	 	"56"
 		"priority"	"35"
 	}
-
+	
 	BuildingStatus_Spy
 	{
 		"fieldName" "BuildingStatus_Spy"
@@ -264,8 +280,8 @@
 		"fieldName" "HudRoundTimer"
 		"xpos"	"c-20"
 		"ypos"	"440"
-		"wide"	"200"
-		"tall"  "150"
+		"wide"	"120"
+		"tall"  "40"
 		"visible" "1"
 		"enabled" "1"
 		
@@ -381,20 +397,20 @@
 		"tall"	 "468"
 
 		"MaxDeathNotices" "10"
-		"IconScale"	  "0.35"
+		"IconScale"	  "0.1"
 		"LineHeight"	  "12"
 		"LineSpacing"	  "4"
 		"CornerRadius"	  "5"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Default"
+		"TextFont"		"HudDeathnotice"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
+		"TeamBlue"		"HUDBlueTeam"
+		"TeamRed"		"niggared"
 		"IconColor"		"HudWhite"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
+		"BaseBackgroundColor"	"0 0 0 255"		[$WIN32]
+		"LocalBackgroundColor"	"245 229 196 50"	[$WIN32]
 		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
 		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
 	}
@@ -422,8 +438,8 @@
 		"fieldName" "ScorePanel"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "512"
-		"tall"	 "384"
+		"wide"	 "640"
+		"tall"	 "480"
 	}
 
 	HudTrain
@@ -640,8 +656,8 @@
 		"enabled"				"1"
 		"xpos"					"c-240"
 		"ypos"					"c60"
-		"wide"					"480"
-		"tall"					"100"
+		"wide"					"0"
+		"tall"					"0"
 		"HintSize"				"1"
 		"text_xpos"				"8"
 		"text_ypos"				"8"
@@ -656,8 +672,8 @@
 		"enabled" 	"1"
 		"xpos"		"r120"
 		"ypos"		"r340"
-		"wide"		"100"
-		"tall"		"200"
+		"wide"		"0"
+		"tall"		"0"
 		"text_xpos"	"8"
 		"text_ypos"	"8"
 		"text_xgap"	"8"
@@ -804,7 +820,7 @@
 		"xpos"			"10"	[$WIN32]
 		"xpos"			"42"	[$X360]
 		"ypos"			"275"
-		"wide"	 		"450"
+		"wide"	 		"320"
 		"tall"	 		"120"
 		"PaintBackgroundType"	"2"
 	}
@@ -866,6 +882,19 @@
 	HudTeamGoal
 	{
 		"fieldName"				"HudTeamGoal"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-160"
+		"ypos"					"65"
+		"ypos_lodef"			"75"
+		"wide"					"320"
+		"tall"					"100"
+	}
+
+
+	HudTeamGoalTournament
+	{
+		"fieldName"				"HudTeamGoalTournament"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-160"
@@ -976,7 +1005,7 @@
 	{
 		"fieldName"				"AchievementNotificationPanel"
 		"visible"				"1"
-		"enabled"				"1"
+		"enabled"				"0"
 		"xpos"					"0"
 		"ypos"					"180"
 		"wide"					"f10"	[$WIN32]
@@ -1036,12 +1065,20 @@
 		"NormalY"		"10"
 		"EngineerY"		"170"
 		"zpos"			"2"
-		"wide"			"200"
-		"tall"			"280"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"	
 	}
 	
-	
-	
+	HudTrainingMsg
+	{
+		"fieldName"				"HudTrainingMsg"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"c-200"
+		"ypos"					"220"
+		"wide"					"0"
+		"tall"					"0"
+	}
 }

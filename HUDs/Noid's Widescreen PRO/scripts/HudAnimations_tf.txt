@@ -228,7 +228,7 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.01 0.1
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 	
@@ -250,29 +250,7 @@ event HudHealthDyingPulseStop
 
 
 
-//Health Dying Pulse 2
-event HudHealthDyingPulse2
-{
-	Animate	PlayerStatusHealthValue 	FgColor		"RedSolid"		Linear 0.0 0.1
-	Animate	PlayerStatusHealthValue 	FgColor		"Black"			Linear 0.3 0.4
-	
-	RunEvent HudHealthDyingPulseLoop2	0.25
-	
-	
-	
-}
 
-// call to loop HudHealthDyingPulse
-event HudHealthDyingPulseLoop2
-{
-	RunEvent HudHealthDyingPulse2 0.0
-}
-
-event HudHealthDyingPulseStop2
-{
-	StopEvent HudHealthDyingPulse2 0.0
-	StopEvent HudHealthDyingPulse2 0.0
-}
 //===========================================
 
 event ControlPointIconShrink
