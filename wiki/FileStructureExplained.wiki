@@ -1,0 +1,17 @@
+#summary This explains the file structure of the project.
+
+= HUDs =
+=== trunk/HUDs/ ===
+Each unique HUD own sub-folder, name it something descriptive because this will be the title of your HUD in the installer (e.g. Noid's Widescreen HUD). Create the folder hierarchy just like it appears inside your tf/ folder. In addition to those folders, include a screenshots/ folder with a few JPEG screenshots of your HUD in action. The installer will use these to show off your work.
+
+= Competitive Configuration =
+=== trunk/cfg/ ===
+The script is organized according to function. Open competitive.cfg for an index of the other files in the script.
+
+= Installer Source Code =
+=== trunk/ScriptInstaller/ ===
+This is where the installer code and Visual Studio project reside.
+
+= Packages and Graphics =
+=== Downloads ===
+There are several helpful graphics, including the .psd used for the keyboard map, in the Downloads section.
