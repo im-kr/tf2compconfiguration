@@ -397,24 +397,23 @@
 		"tall"	 "468"
 
 		"MaxDeathNotices" "10"
-		"IconScale"	  "0.35"
+		"IconScale"	  "0.1"
 		"LineHeight"	  "12"
 		"LineSpacing"	  "4"
 		"CornerRadius"	  "5"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Default"
+		"TextFont"		"HudDeathnotice"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
+		"TeamBlue"		"HUDBlueTeam"
+		"TeamRed"		"niggared"
 		"IconColor"		"HudWhite"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
+		"BaseBackgroundColor"	"0 0 0 255"		[$WIN32]
+		"LocalBackgroundColor"	"245 229 196 50"	[$WIN32]
 		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
 		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
 	}
-
 
 	HudVehicle
 	{
@@ -878,8 +877,8 @@
 		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
-	}
-		
+	}	
+
 	HudTeamGoal
 	{
 		"fieldName"				"HudTeamGoal"

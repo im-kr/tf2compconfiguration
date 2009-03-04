@@ -76,9 +76,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"360"	[$WIN32]
+		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r210"	[$WIN32]
+		"ypos_minmode"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
@@ -310,7 +310,6 @@
 
 		"PaintBackgroundType"	"2"
 	}
-
 	HudDamageIndicator
 	{
 
@@ -381,20 +380,20 @@
 		"tall"	 "468"
 
 		"MaxDeathNotices" "10"
-		"IconScale"	  "0.1"
+		"IconScale"	  "0.35"
 		"LineHeight"	  "12"
 		"LineSpacing"	  "4"
 		"CornerRadius"	  "5"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"HudDeathnotice"
+		"TextFont"		"Default"
 		
-		"TeamBlue"		"HUDBlueTeam"
-		"TeamRed"		"niggared"
+		"TeamBlue"		"HUDBlueTeamSolid"
+		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
 
-		"BaseBackgroundColor"	"0 0 0 255"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 50"	[$WIN32]
+		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
+		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
 		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
 		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
 	}
@@ -854,14 +853,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"370"	[$WIN32]
+		"xpos_minmode"	"r110"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"300"	[$WIN32]
+		"ypos_minmode"	"r30"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
-	}	
+	}		
 
 	HudTeamGoal
 	{
