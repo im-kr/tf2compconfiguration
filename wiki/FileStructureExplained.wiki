@@ -10,7 +10,7 @@ Each unique HUD own sub-folder, name it something descriptive because this will 
 The script is organized according to function. Open competitive.cfg for an index of the other files in the script.
 
 = Installer Source Code =
-=== trunk/ScriptInstaller/ ===
+=== trunk/scriptinstaller/ ===
 This is where the installer code and Visual Studio project reside.
 
 = Packages and Graphics =
