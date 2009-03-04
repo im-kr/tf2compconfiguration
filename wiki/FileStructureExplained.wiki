@@ -1,4 +1,5 @@
 #summary This explains the file structure of the project.
+#labels Featured,Phase-Design,Phase-Implementation
 
 = HUDs =
 === trunk/HUDs/ ===
