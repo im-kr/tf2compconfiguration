@@ -1,0 +1,5 @@
+#summary The hotkeys remapped by the script current as of version 2.5
+#labels Featured,Phase-Deploy
+
+==== The hotkeys remapped by the script current as of version 2.5 ====
+[http://tf2compconfiguration.googlecode.com/files/hotkeykeyboard.jpg]
