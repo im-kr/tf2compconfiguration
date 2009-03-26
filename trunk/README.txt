@@ -9,8 +9,9 @@ Script Manual Install (recommended)
 1) Reset your config folder to its default. BACK UP the entire folder first and then delete everything inside it except 'user.scr'. 
 Now, run and exit the game (no need to join a server).
 2) Copy over the contents of the cfg folder (from the installer) into your cfg folder.
-3) Please note, in observer mode, use the left and right arrows to switch perspectives. The script is compatible with FPS configs, just add them back in when done.
+3) If you would like to change any hotkeys on your own, do it inside competitiveBinds.cfg or delete competitiveBinds.cfg after you do it in game, since this will overwrite any binds the default install uses.
+4) Please note, in observer mode, use the left and right arrows to switch perspectives. The script is compatible with FPS configs, just add them back in when done.
 
 HUD Manual Install
 
-Copy the resource and scripts folder over to your tf folder.
+Open the HUD you would like to install and copy the resource and scripts folder over to your tf folder.
