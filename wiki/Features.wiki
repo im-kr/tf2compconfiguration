@@ -2,15 +2,15 @@
 
 Feature List
 
- # All capable weapons will automatically reload. You can toggle autoreload on and off with keypad 0.
- # You can switch between alternate weapons (such as the kritzkrieg or backburner) with f1, f2, and f3 for primary, secondary and melee, respectively.
- # The script has some optomized net settings and hotkeys. Press keypad 2 for the default interp of 0.02. Press keypad 3 if you're getting loss (yellow) at 0.02. + and - can be used to adjust interp to your liking - it's what you're used to that counts. Yellow lerp is bad. Orange is OK.
+ # All capable weapons will automatically reload. You can toggle autoreload on and off with delete.
+ # You can switch between alternate weapons (such as the kritzkrieg or backburner) with f1, f2, and f3 for primary, secondary and melee, respectively. (Temporarily broken by Valve, this switches between weapon scripts now, however. E.g. Scattergun to FoN)
+ # The script has some optimized net settings and hotkeys. Soldier and Demo are 0.0152. Everything else is the "default" interp of .033 (set in competitive.cfg). You can also adjust your interp by using the + and - keys in combination with the statekey.
  # If you choose to install the auto-fire pistol script, just hold down mouse1 to fire as fast as possible.
- # Says whenever you're ubering or switching between kritzkrieg and the medigun. There is also the option to enable autoheal without Valve's graphical glitches.
- # Includes a series of admin hotkeys for administering your server. Must press shift before using any hotkeys for fear of accidentally pressing them.
+ # Says whenever you're ubering or switching between kritzkrieg and the medigun.
+ # Includes a series of admin hotkeys for administering your server. Must press shift before using these hotkeys for fear of accidentally pressing them.
  # Pressing shift and a # key will switch you to that # class (press ',' in-game to see class #s).
- # Press 'B' down to forward spawn.
+ # Press 'N' down to forward spawn.
  # f7 toggles net_graph on and off.
  # f8 starts and stops a recording for those obnoxious invisible characters after an alt-tab.
- # Pressing 'q' will toggle between your primary and secondary weapons (look under optional binds in 'binds.txt' if you prefer default 'q' functionality).
- # f9 - f12 are server connection binds. Edit servers.cfg with your server connection and rcon information.
+ # Pressing 'q' will toggle between your primary and secondary weapons (look for the commented out optional binds in 'competitiveBinds.cfg' if you prefer default 'q' functionality).
+ # f9 - f12 are server connection binds. Edit 'competitiveServers.cfg' with your server connection and RCON information.
