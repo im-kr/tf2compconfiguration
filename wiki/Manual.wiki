@@ -1,10 +1,11 @@
 #summary How to manually install the config.
 #labels Phase-Deploy
 
-The script is extremely easy to manually install:
+Installing the script is as easy as dragging and dropping, then configuring with notepad.
 
-     # Reset your 'cfg' folder to its default. The cfg folder is located at 'C:\Program Files\Steam\steamapps\>USERNAME<\team fortress 2\tf\cfg'. Back up the folder and then delete everything inside it except 'user.scr'. Now, run and exit the game (no need to join a server).
+     # OPTIONAL if you're having problems: Reset your 'cfg' folder to its default. The cfg folder is located at 'C:\Program Files\Steam\steamapps\>USERNAME<\team fortress 2\tf\cfg'. Back up the folder and then delete everything inside it except 'user.scr'. Now, run and exit the game (no need to join a server).
      # Copy over the contents of the cfg folder (from the archive) into your cfg folder.
-     # Please note, in observer mode, use the left and right arrows to switch perspectives. The script is compatible with FPS configs, just add them back in when done.
 
-[ImportantToKnow Click for important things to know before using the script.]
+Please note, in observer mode, use the left and right arrows to switch perspectives. 
+
+The script is compatible with FPS configs, just add them back in when done.
