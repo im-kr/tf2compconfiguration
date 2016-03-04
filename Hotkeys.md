@@ -1,0 +1,2 @@
+#### The hotkeys remapped by the script current as of version 2.5 ####
+![http://tf2compconfiguration.googlecode.com/files/hotkeykeyboard.jpg](http://tf2compconfiguration.googlecode.com/files/hotkeykeyboard.jpg)
